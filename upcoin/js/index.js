@@ -23,8 +23,8 @@ jQuery(document).ready(function($) {
       $flipTrigger.text(string);
     }
     
-    theResult('Крутимся...');
-    btnText('Крутимся...');
+    theResult('Генерация случайностей..');
+    btnText('Спин..');
     
     // Do this if the coin isn't currently flipping
     if(!$flipTrigger.hasClass(flipping)) {
