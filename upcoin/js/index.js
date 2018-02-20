@@ -2,6 +2,7 @@ jQuery(document).ready(function($) {
   // Flip a Coin
   function flipCoin(e) {
     e.preventDefault();
+  
     
     // Set up variables
     var flipTime = 1500; // Flip the coin for 1.5 seconds.
