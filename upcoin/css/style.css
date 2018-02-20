@@ -4,10 +4,12 @@ body {
 }
 
 .wrapper {
-  max-width: 700px;
-  margin: 32px auto;
-  padding: 32px 10px;
-  position: relative;
+    max-width: 580px;
+    max-height: 510px;
+    border-radius: 100px;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
 .result {
