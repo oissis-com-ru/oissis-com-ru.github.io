@@ -144,3 +144,7 @@ body {
             transform: rotateX(180deg);
   }
 }
+::-webkit-scrollbar {
+    width: 10px;
+    background: coral;
+}
