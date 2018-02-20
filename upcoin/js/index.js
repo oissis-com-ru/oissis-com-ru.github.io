@@ -7,8 +7,8 @@ jQuery(document).ready(function($) {
     var flipTime = 1500; // Flip the coin for 1.5 seconds.
     var $theCoin = $('#coin');
     var $flipTrigger = $('.js-flip-coin');
-    var heads = 'is-heads';
-    var tails = 'is-tails';
+    var heads = 'орел';
+    var tails = 'решка';
     var flipping = 'is-flipping';
     
     // Result Text
@@ -22,8 +22,8 @@ jQuery(document).ready(function($) {
       $flipTrigger.text(string);
     }
     
-    theResult('Flipping Coin...');
-    btnText('Flipping...');
+    theResult('Крутимся...');
+    btnText('Крутимся...');
     
     // Do this if the coin isn't currently flipping
     if(!$flipTrigger.hasClass(flipping)) {
@@ -45,13 +45,13 @@ jQuery(document).ready(function($) {
         if(Math.random() >= 0.5) {
           // Heads
           coinLanded(heads);
-          theResult('Landed on Heads!');
-          btnText('Flip Coin');
+          theResult('Выпал Орел!');
+          btnText('Флип коин');
         } else {
           // Tails
           coinLanded(tails);
-          theResult('Landed on Tails!');
-          btnText('Flip Coin');
+          theResult('Выпала Решка!');
+          btnText('Флип коин');
         }
       }
       
