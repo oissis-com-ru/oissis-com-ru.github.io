@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div id='app'></div>
+    <script src="https://unpkg.com/webamp@1.1.2/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "DJ Mike Llama",
+                    title: "Llama Whippin' Intro"
+                },
+                url: "llama-2.91.mp3",
+                duration: 5.322286
+            }],
+        }).renderWhenReady(document.getElementById('app'));
+    </script>
+</body>
+
+</html>
