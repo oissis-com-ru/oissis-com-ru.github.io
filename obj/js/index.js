@@ -35,7 +35,7 @@ var loadOBJ = function(){
 	var loader = new THREE.OBJLoader( manager );
   
 	//Launch loading of the obj file, addBananaInScene is the callback when it's ready 
-	loader.load( 'upcoin-game.github.io/obj/obj/pi.obj', addBananaInScene);
+	loader.load( 'https://upcoin-game.github.io/obj/obj/pi.obj', addBananaInScene);
 
 };
 
