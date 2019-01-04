@@ -7,8 +7,8 @@ jQuery(document).ready(function($) {
     var flipTime = 1500; // Flip the coin for 1.5 seconds.
     var $theCoin = $('#coin');
     var $flipTrigger = $('.js-flip-coin');
-    var heads = 'орел';
-    var tails = 'решка';
+    var heads = 'heads';
+    var tails = 'tails';
     var flipping = 'is-flipping';
     
     // Result Text
