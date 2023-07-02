@@ -14,6 +14,15 @@
 html, body {
     font-family: 'Ubuntu Mono', monospace;
 }
+  .line1::before{
+    content: 'ОСИСИС';
+    position: absolute;
+    top: 240px;
+    font-size: 1.4em;
+    left: 40px;
+    color: #c6c6c6;
+    letter-spacing: 33px;   
+  }
   .textBlock1::before
   {
     content: 'ОСИСИС';
@@ -49,7 +58,7 @@ html, body {
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<span style="
+<span class="line1" style="
     display: inline-block;
     position: absolute;
     width: 75%;
